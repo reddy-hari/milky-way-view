@@ -1,0 +1,128 @@
+{
+ "epochUtc": "2026-11-24T00:00:00Z",
+ "fetchedAt": "2026-11-24T07:04:55.423Z",
+ "frame": "ecliptic J2000 (ICRF), heliocentric, au and au/day",
+ "bodies": {
+  "sun": {
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "velocity": [
+    0,
+    0,
+    0
+   ]
+  },
+  "mercury": {
+   "position": [
+    -0.3217487232534542,
+    0.1455801045312209,
+    0.04140698274694556
+   ],
+   "velocity": [
+    -0.0173915219869416,
+    -0.02444117960273964,
+    -0.0004023539310562479
+   ]
+  },
+  "venus": {
+   "position": [
+    0.1263581407406624,
+    0.709118836524717,
+    0.00245443062032938
+   ],
+   "velocity": [
+    -0.01998060781231624,
+    0.003447504189239617,
+    0.001200256849724648
+   ]
+  },
+  "earth": {
+   "position": [
+    0.473616354488022,
+    0.8664015800500099,
+    -0.00005923282526825791
+   ],
+   "velocity": [
+    -0.01536949703584327,
+    0.008182882673130885,
+    -4.281510427989767e-7
+   ]
+  },
+  "moon": {
+   "position": [
+    0.4750801578755798,
+    0.8683209499835259,
+    0.000151970294054189
+   ],
+   "velocity": [
+    -0.01588176398974226,
+    0.008545875895356462,
+    -9.560871545069698e-7
+   ]
+  },
+  "mars": {
+   "position": [
+    -0.5852810834422738,
+    1.507122552020622,
+    0.04593472348646128
+   ],
+   "velocity": [
+    -0.01251507990752826,
+    -0.003876493692454065,
+    0.000225624210456969
+   ]
+  },
+  "jupiter": {
+   "position": [
+    -3.792039704371781,
+    3.73658741857012,
+    0.06932019471376208
+   ],
+   "velocity": [
+    -0.005389971419388228,
+    -0.005027535471804238,
+    0.0001414361253214475
+   ]
+  },
+  "saturn": {
+   "position": [
+    9.181234394060866,
+    2.060892205924716,
+    -0.4013612625361195
+   ],
+   "velocity": [
+    -0.001530605519276993,
+    0.005429504981770801,
+    -0.00003395926283859943
+   ]
+  },
+  "uranus": {
+   "position": [
+    8.739675077235727,
+    17.35505106224536,
+    -0.04886382594382092
+   ],
+   "velocity": [
+    -0.003547614941756567,
+    0.001582955254378932,
+    0.00005184771939489581
+   ]
+  },
+  "neptune": {
+   "position": [
+    29.82784610788257,
+    1.550323368947019,
+    -0.7193026629623495
+   ],
+   "velocity": [
+    -0.0001884707684278853,
+    0.003150867495207153,
+    -0.00006067404992820903
+   ]
+  }
+ },
+ "sampleText": "\nCalling TDBMUT with LBND,LMJD= 0.848750400000000E+09  0.613680000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848793600000000E+09  0.613685000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848836800000000E+09  0.613690000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Mon Nov 23 23:04:58 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Moon (301)                      {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 2026-Nov-24 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-25 00:00:00.0000 UT \nStep-size       : 720 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : AU-D\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261123.p270219\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-23. PREDICTS-> 2027-FEB-18\nReference frame : Ecliptic of J2000.0\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n$$SOE\n2461368.500000000, A.D. 2026-Nov-24 00:00:00.0000,  4.750801578755798E-01,  8.683209499835259E-01,  1.519702940541890E-04, -1.588176398974226E-02,  8.545875895356462E-03, -9.560871545069698E-07,\n2461369.000000000, A.D. 2026-Nov-24 12:00:00.0000,  4.671104584955815E-01,  8.725452004136554E-01,  1.498330192482964E-04, -1.599551807842833E-02,  8.350018225110029E-03, -7.595922382112207E-06,\n2461369.500000000, A.D. 2026-Nov-25 00:00:00.0000,  4.590862340858590E-01,  8.766699552155200E-01,  1.443823608878198E-04, -1.609971284853154E-02,  8.148088914136141E-03, -1.418770295195477E-05,\n$$EOE\n**************************************************************************************************************************************************************************************************\n \nTIME\n\n Times PRIOR to 1962 are UT1, a mean-solar time closely related to the\nprior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current\ncivil or \"wall-clock\" atomic time-scale. UTC is kept within 0.9 seconds\nof UT1 using integer leap-seconds for 1972 and later years.\n\n  Conversion from the internal Barycentric Dynamical Time (TDB) of solar\nsystem dynamics to the discontinuous civil UT time-scale has not been\ndetermined for UTC times after the next July or January 1st. Therefore,\nthe last known leap-second is used as a constant over future intervals,\na condition noted here as \"UT~\".\n\n  Future but as yet undetermined leap-seconds can be expected to change\ntime-tags in the \"UT~\" interval and, in general, the UT scale may not be\nsuitable for purposes that assume time-tag continuity in the ephemeris.\nOutput in continuous TDB and TT timescales may instead be requested,\nthough these are not linked to Earth's rotation.\n\n  Time-tags refer to the UT time-scale conversion from TDB on Earth\nregardless of observer location within the solar system, although clock\nrates may differ due to the local gravity field and no analog to \"UT\"\nmay be defined for that location.\n \nCALENDAR SYSTEM\n\n  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15\n(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)\nare in the Julian calendar system, which is automatically extended for dates\nprior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for\nmatching historical dates. The Gregorian calendar more accurately corresponds\nto the Earth's orbital motion and seasons. A \"Gregorian-only\" calendar mode is\navailable if such physical events are the primary interest.\n\nREFERENCE FRAME AND COORDINATES\n\n  Ecliptic at the standard reference epoch\n\n    Reference epoch: J2000.0\n    X-Y plane: adopted Earth orbital plane at the reference epoch\n               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane\n    X-axis   : ICRF\n    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense\n               of Earth's north pole at the reference epoch.\n\n  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:\n\n    JDUT     Julian Day Number, Universal Time\n      X      X-component of position vector (au)\n      Y      Y-component of position vector (au)\n      Z      Z-component of position vector (au)\n      VX     X-component of velocity vector (au/day)                           \n      VY     Y-component of velocity vector (au/day)                           \n      VZ     Z-component of velocity vector (au/day)                           \n\nABERRATIONS AND CORRECTIONS\n\n Geometric state vectors have NO corrections or aberrations applied.\n\nComputations by ...\n\n    Solar System Dynamics Group, Horizons On-Line Ephemeris System\n    4800 Oak Grove Drive, Jet Propulsion Laboratory\n    Pasadena, CA  91109   USA\n\n    General site: https://ssd.jpl.nasa.gov/\n    Mailing list: https://ssd.jpl.nasa.gov/email_list.html\n    System news : https://ssd.jpl.nasa.gov/horizons/news.html\n    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html\n    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x\n                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html\n                  command-line   telnet ssd.jpl.nasa.gov 6775\n                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt\n                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS\n    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov\n*******************************************************************************\n"
+}

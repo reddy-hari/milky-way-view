@@ -1,0 +1,65 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  will-change: transform;
+}
+
+.label {
+  position: absolute;
+  left: 10px;
+  top: -9px;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 6px;
+  border-radius: 4px;
+  color: var(--text-dim);
+  background: rgba(6, 10, 22, 0.55);
+  user-select: none;
+}
+
+.default {
+  color: var(--text-dim);
+}
+
+.muted {
+  color: var(--text-faint);
+  background: transparent;
+  font-style: italic;
+}
+
+.hover {
+  color: var(--text);
+  background: rgba(10, 18, 38, 0.85);
+}
+
+.selected {
+  color: #0b1020;
+  background: var(--accent);
+  font-weight: 600;
+}
+
+.ring {
+  position: absolute;
+  left: -9px;
+  top: -9px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+}
+
+.ringSelected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(94, 234, 212, 0.25);
+}
